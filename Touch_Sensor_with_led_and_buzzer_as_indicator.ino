@@ -35,7 +35,7 @@ void loop() {
       } else if (touchCount == 2) {
         digitalWrite(greenLedPin, HIGH);
         digitalWrite(redLedPin, LOW);
-        digitalWrite(buzzerPin, LOW);  // Aktifkan buzzer
+        digitalWrite(buzzerPin, LOW);  // Matikan buzzer
         delay(500);
         digitalWrite(buzzerPin, LOW);   // Matikan buzzer
         touchCount = 0;
